@@ -19,7 +19,7 @@
         </style>
     </head>
 <body>
-    <table>
+    <table border="1px solid black">
         <tr>
             <td>Web Form</td>
             <td>Allows users to enter data that can be saved and processed</td>
@@ -88,6 +88,58 @@
             <td>Virtual Keyboard</td>
             <td>software representations of a physical device</td>
         </tr>
+        <tr>
+            <td>Spinner Control</td>
+            <td>displays an up or down arrow to increase or decrease the field value by a set amount</td>
+        </tr>
+        <tr>
+            <td>Range Slider</td>
+            <td>limits a numeric field to a range of possible values</td>
+        </tr>
+        <tr>
+            <td>Data Lists</td>
+            <td> a list of possible data values that a form field can have</td>
+        </tr>
+        <tr>
+            <td>Form Buttons</td>
+            <td> a type of form control that performs an action</td>
+        </tr>
+        <tr>
+            <td>Command Buttons</td>
+            <td>runs a program that affects the content of a page or the actions of a browser</td>
+        </tr>
+        <tr>
+            <td>Submit Button</td>
+            <td>submits a form to the server for processing when clicked</td>
+        </tr>
+        <tr>
+            <td>Reset Button</td>
+            <td>resets a form to the server for processing when clicked</td>
+        </tr>
+        <tr>
+            <td>Validation</td>
+            <td> process of ensuring that a user has supplied valid data</td>
+        </tr>
+        <tr>
+            <td>Server-side Validation</td>
+            <td>validation occurs on a web server</td>
+        </tr>
+        <tr>
+            <td>Client-side Validation</td>
+            <td>validation occurs in the user’s browser</td>
+        </tr>
+        <tr>
+            <td>Regular expression</td>
+            <td>concise description of a character pattern</td>
+        </tr>
+        <tr>
+            <td>Inline Validation</td>
+            <td>the technique of immediate data validation and reporting of errors</td>
+        </tr>
+        <tr>
+            <td>Focus</td>
+            <td> the state in which an element has been clicked by the user, making it the active control on the form</td>
+        </tr>
     </table>
     <dl>
         <div>
@@ -124,6 +176,28 @@
             <dd>< select name="name"><br>
                 < option value="1">text< /option >
                 < /select >
+            </dd>
+        </div>
+        <div>   
+            <dt>optgroup</dt>
+            <dd>< optgroup label=”label1”><br>
+                < option><br>
+                < option><br>
+                </ optgroup>
+            </dd>
+        </div>
+        <div>
+            <dt>datalist</dt>
+            <dd>< datalist ><br>
+                < option ><br>
+            < /datalist>
+            </dd>
+        </div>
+        <div>
+            <dt>button</dt>
+            <dd>< button type="text" ><br>
+                < content ><br>
+            < /button>
             </dd>
         </div>
     </dl>
@@ -278,6 +352,107 @@
             <dt>placeholder</dt>
             <dd>< input name="name" id="id" type="week" placeholder="1">
             </dd>
+        </div>
+        <div>
+            <dt>multiple</dt>
+            <dd>< select name="name" multiple><br>
+                < /select >
+            </dd>
+        </div>
+        <div>
+            <dt>rows/cols</dt>
+            <dd>< textarea name=”name” cols="1" rows="2"><br>
+                < /textarea>
+            </dd>
+        </div>
+        <div>
+            <dt>onclick</dt>
+            <dd>< input value=”text” onclick="script" type=”button”></dd>
+        </div>
+        <div>
+            <dt>required</dt>
+            <dd>< input value=”text” name="username" required></dd>
+        </div>
+        <div>
+            <dt>pattern</dt>
+            <dd>< input name=”custZip” pattern=”^\d{5}$”></dd>
+        </div>
+        <div>
+            <dt>maxlength</dt>
+            <dd>< input name=”custZip” maxlength="4"></dd>
+        </div>
+        <div>
+            <dt>checked</dt>
+            <dd>input:checked {<br>
+                background-color: white;<br>
+            }
+            </dd>
+        </div>
+        <div>
+            <dt>default</dt>
+            <dd>input:default{<br>
+                background-color: white;<br>
+            }</dd>
+        </div>
+        <div>
+            <dt>disabled</dt>
+            <dd>input:disabled{<br>
+                background-color: white;<br>
+            }</dd>
+        </div>
+        <div>
+            <dt>enabled</dt>
+            <dd>input:enabled{<br>
+                background-color: white;<br>
+            }</dd>
+        </div>
+        <div>
+            <dt>focus</dt>
+            <dd>input:focus{<br>
+                background-color: white;<br>
+            }</dd>
+        </div>
+        <div>
+            <dt>inderterminate</dt>
+            <dd>input:inderterminate{<br>
+                background-color: white;<br>
+            }</dd>
+        </div>
+        <div>
+            <dt>in-range</dt>
+            <dd>input:in-range{<br>
+                background-color: white;<br>
+            }</dd>
+        </div>
+        <div>
+            <dt>invalid</dt>
+            <dd>input:invalid{<br>
+                background-color: white;<br>
+            }</dd>
+        </div>
+        <div>
+            <dt>optional</dt>
+            <dd>input:optional{<br>
+                background-color: white;<br>
+            }</dd>
+        </div>
+        <div>
+            <dt>out-of-range</dt>
+            <dd>input:out-of-range{<br>
+                background-color: white;<br>
+            }</dd>
+        </div>
+        <div>
+            <dt>requried</dt>
+            <dd>input:requried{<br>
+                background-color: white;<br>
+            }</dd>
+        </div>
+        <div>
+            <dt>valid</dt>
+            <dd>input:valid{<br>
+                background-color: white;<br>
+            }</dd>
         </div>
     </dl>
 </body>
